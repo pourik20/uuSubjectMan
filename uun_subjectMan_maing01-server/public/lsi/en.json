@@ -1,0 +1,124 @@
+{
+  "appName": "Application uunSubjectMan",
+  "About": {
+    "header": "About application uunSubjectMan",
+    "creatorsHeader": "Application creators",
+    "termsOfUse": "Terms of use"
+  },
+  "AboutContent": {
+    "content": "<uu5string/>Demo application is a template for developing new applications.",
+    "technologiesContent": "<uu5string/>Other used technologies: <Uu5Elements.Link href='http://www.w3schools.com/html/default.asp' target='_blank'>Html5</Uu5Elements.Link>, <Uu5Elements.Link href='http://www.w3schools.com/css/default.asp' target='_blank'>CSS</Uu5Elements.Link>, <Uu5Elements.Link href='http://www.w3schools.com/js/default.asp' target='_blank'>JavaScript</Uu5Elements.Link>, <Uu5Elements.Link href='http://getbootstrap.com' target='_blank'>Bootstrap</Uu5Elements.Link>, <Uu5Elements.Link href='https://reactjs.org' target='_blank'>React</Uu5Elements.Link>, <Uu5Elements.Link href='https://www.ruby-lang.org' target='_blank'>Ruby</Uu5Elements.Link>, <Uu5Elements.Link href='http://puma.io' target='_blank'>Puma</Uu5Elements.Link> a <Uu5Elements.Link href='https://www.docker.com' target='_blank'>Docker</Uu5Elements.Link>. Application is operated in the <Uu5Elements.Link href='https://plus4u.net' target='_blank'>Plus4U</Uu5Elements.Link> internet service with the usage of <Uu5Elements.Link href='https://azure.microsoft.com' target='_blank'>Microsoft Azure</Uu5Elements.Link> cloud."
+  },
+  "ControlPanel": {
+    "rightsError": "You do not have sufficient rights to display this component.",
+    "btNotConnected": "The application is not connected to a Business Territory."
+  },
+  "InitAppWorkspace": {
+    "notAuthorized": "You do not have sufficient rights to use the application.",
+    "formHeader": "Initialize uuApp",
+    "formHeaderInfo": "<uu5string/>Your uuApp is running, but requires initialization. If you need help with filling up this form, see\n<Uu5Elements.Link target=\"_blank\" href=\"#\">Documentation</Uu5Elements.Link>.",
+    "notAuthorizedForInit": "The application is running but it was not initialized yet and you do not have sufficient rights to do so.",
+    "uuBtLocationUriLabel": "uuBusinessTerritory location",
+    "uuBtLocationUriInfo": "Uri of the uuBt location where AWSC will be created",
+    "nameLabel": "Name",
+    "initialize": "Initialize"
+  },
+  "Menu": {
+    "home": "Home",
+    "cms": "CMS",
+    "about": "About Application"
+  },
+  "Home": {
+    "title": "Study programmes",
+    "buttonLoad": "Load next",
+    "buttonView": "View"
+  },
+  "Programme": {
+    "selective": "Selective subjects",
+    "obligatory": "Obligatory subjects",
+    "obligatory-selective": "Obligatory-selective subjects",
+    "buttonView": "View"
+  },
+  "SubjectInfo": {
+    "credits": "Credits:",
+    "language": "Language:",
+    "degree": "Degree:",
+    "goal": "Goal:",
+    "description": "Description:",
+    "supervisor": "Supervisor:"
+  },
+  "CMS": {
+    "Programmes": "Study programmes",
+    "Subjects": "Subjects",
+    "Topics": "Topics",
+    "Content": "Content"
+  },
+  "ProgrammeModal": {
+    "create": "Create",
+    "save": "Save",
+    "close": "Close",
+    "title": "Title",
+    "description": "Description",
+    "titleCreate": "Create programme",
+    "titleUpdate": "Update programme"
+  },
+  "SubjectModal": {
+    "create": "Create",
+    "save": "Save",
+    "close": "Close",
+    "title": "Title",
+    "description": "Description",
+    "titleCreate": "Create subject",
+    "titleUpdate": "Update subject"
+  },
+  "TopicModal": {
+    "create": "Create",
+    "save": "Save",
+    "close": "Close",
+    "title": "Title",
+    "description": "Description",
+    "content": "Content",
+    "titleCreate": "Create topic",
+    "titleUpdate": "Update topic"
+  },
+  "ContentModal": {
+    "create": "Create",
+    "save": "Save",
+    "close": "Close",
+    "title": "Title",
+    "description": "Description",
+    "file": "File",
+    "titleCreate": "Create content",
+    "titleUpdate": "Update content"
+  },
+  "DeleteModal": {
+    "yes": "Yes",
+    "no": "No",
+    "titleProgramme": "Delete programme",
+    "titleSubject": "Delete subject",
+    "titleTopic": "Delete topic",
+    "titleContent": "Delete content",
+    "programme": "Are you sure you want to delete this programme?",
+    "subject": "Are you sure you want to delete this subject?",
+    "topic": "Are you sure you want to delete this topic?",
+    "content": "Are you sure you want to delete this content?"
+  },
+  "AlertCreate": {
+    "success": "Success",
+    "created": "Successfully created"
+  },
+  "AlertUpdate": {
+    "success": "Success",
+    "updated": "Successfully updated"
+  },
+  "AlertDelete": {
+    "success": "Success",
+    "deleted": "Successfully deleted"
+  },
+  "AlertError": {
+    "title": "Error",
+    "errorAllFields": "Fill in all required fields",
+    "errorOneCategory": "One subject in one category",
+    "error": "The following error occured: "
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "port": 8080,
+  "uuSubAppDataStoreMap": {
+    "primary": "mongodb://admin:pomerancovaStavaSOkurkouVe3Rano@ac-zxmha62-shard-00-00.x2rgxbw.mongodb.net:27017,ac-zxmha62-shard-00-01.x2rgxbw.mongodb.net:27017,ac-zxmha62-shard-00-02.x2rgxbw.mongodb.net:27017/appServerPrimary?ssl=true&replicaSet=atlas-129ppt-shard-0&authSource=admin&retryWrites=true&w=majority",
+    "binary": "mongodb://admin:pomerancovaStavaSOkurkouVe3Rano@ac-zxmha62-shard-00-00.x2rgxbw.mongodb.net:27017,ac-zxmha62-shard-00-01.x2rgxbw.mongodb.net:27017,ac-zxmha62-shard-00-02.x2rgxbw.mongodb.net:27017/appServerBinary?ssl=true&replicaSet=atlas-129ppt-shard-0&authSource=admin&retryWrites=true&w=majority"
+  },
+  "asid_license_owner_list": ["5921-5896-1", "3642-2320-1"],
+  "asid": "11111111111111111111111111111111",
+  "log_level": "INFO"
+}

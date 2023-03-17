@@ -1,0 +1,19 @@
+{
+  "product": "uun_bpmi22wdl04_maing01",
+  "version": "1.0.0-DEV",
+  "license": "License Commercial",
+  "description": {
+    "en": "",
+    "cs": ""
+  },
+  "devkit": {
+    "development": {
+      "appBoxLocationUri": "ues:UCL-BT:OPR.RSP/APPBOXES",
+      "appDeploymentUri": "ues:UCL-BT[118500965363973101]:UUN_STUDENTS03_AWE[61797a92a1342b81b8058028]:UUN.BPMI22WDL04.MAING01[63938298a1342b8dddc14e53]",
+      "uuCloudBaseUri": "https://sys-eu-c-3.plus4u.net",
+      "uuCloudLogStoreBaseUri": "https://cmd-eu-c-3.plus4u.net/DTC-BT"
+    }
+  },
+  "uun_subjectMan_maing01-hi": {},
+  "uun_subjectMan_maing01-server": {}
+}

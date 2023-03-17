@@ -1,0 +1,35 @@
+{
+  "uuSubAppDataStore": {
+    "primary": {
+      "type": "uuAppObjectStore",
+      "realization": "MongoDB",
+      "schemaMap": {
+        "subjectManMain": {
+          "realization": "dao/SubjectManMainMongo"
+        },
+        "programme": {
+          "realization": "dao/ProgrammeMongo"
+        },
+        "content": {
+          "realization": "dao/ContentMongo"
+        },
+        "topic": {
+          "realization": "dao/TopicMongo"
+        },
+        "subject": {
+          "realization": "dao/SubjectMongo"
+        }
+      }
+    },
+    "binary": {
+      "type": "uuAppBinaryStore",
+      "realization": "mongodb",
+      "schemaMap": {
+        "contentBinary": {
+          "realization": "dao/ContentBinaryMongo",
+          "maxNoi": 1024
+        }
+      }
+    }
+  }
+}

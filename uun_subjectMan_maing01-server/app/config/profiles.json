@@ -1,0 +1,118 @@
+{
+  "{asid}": {
+    "profileList": ["AsidAuthorities","AsidExecutives","AsidLicenseOwner","Public"],
+    "useCaseMap": {}
+  },
+  "*": {
+    "profileList": ["Authorities","Executives","AwidLicenseOwner","Public","Authenticated","AwidInitiator"],
+    "useCaseMap": {
+      "sys/uuAppWorkspace/init": {
+        "sysStateList": ["created","assigned"],
+        "profileList": ["AwidLicenseOwner","AwidInitiator"]
+      },
+      "sys/uuAppWorkspace/load": {
+        "sysStateList": ["active"],
+        "profileList": ["Authorities", "Executives", "Auditors"]
+      },
+      "sys/uuAppWorkspace/loadBasicData": {
+        "sysStateList": ["active"],
+        "profileList": ["Public"]
+      },
+      "defaultUve": {
+        "profileList": ["Public"]
+      },
+      "sys/uuAppWorkspace/initUve": {
+        "sysStateList": ["created"],
+        "profileList": ["Public","AwidLicenseOwner"]
+      },
+      "programme/create": {
+        "sysStateList": ["active"],
+        "profileList": ["Executives"]
+      },
+      "programme/getById": {
+        "sysStateList": ["active"],
+        "profileList": ["Public"]
+      },
+      "programme/list": {
+        "sysStateList": ["active"],
+        "profileList": ["Public"]
+      },
+      "programme/update": {
+        "sysStateList": ["active"],
+        "profileList": ["Executives"]
+      },
+      "programme/delete": {
+        "sysStateList": ["active"],
+        "profileList": ["Executives"]
+      },
+      "content/create": {
+        "sysStateList": ["active"],
+        "profileList": ["Executives"]
+      },
+      "content/getBinaryData": {
+        "sysStateList": ["active"],
+        "profileList": ["Public"]
+      },
+      "content/get": {
+        "sysStateList": ["active"],
+        "profileList": ["Public"]
+      },
+      "content/list": {
+        "sysStateList": ["active"],
+        "profileList": ["Public"]
+      },
+      "content/delete": {
+        "sysStateList": ["active"],
+        "profileList": ["Executives"]
+      },
+      "content/update": {
+        "sysStateList": ["active"],
+        "profileList": ["Executives"]
+      },
+      "topic/create": {
+        "sysStateList": ["active"],
+        "profileList": ["Executives"]
+      },
+      "topic/list": {
+        "sysStateList": ["active"],
+        "profileList": ["Public"]
+      },
+      "topic/get": {
+        "sysStateList": ["active"],
+        "profileList": ["Public"]
+      },
+      "topic/update": {
+        "sysStateList": ["active"],
+        "profileList": ["Executives"]
+      },
+      "topic/delete": {
+        "sysStateList": ["active"],
+        "profileList": ["Executives"]
+      },
+      "subject/create": {
+        "sysStateList": ["active"],
+        "profileList": ["Executives"]
+      },
+      "subject/list": {
+        "sysStateList": ["active"],
+        "profileList": ["Public"]
+      },
+      "subject/get": {
+        "sysStateList": ["active"],
+        "profileList": ["Public"]
+      },
+      "subject/update": {
+        "sysStateList": ["active"],
+        "profileList": ["Executives"]
+      },
+      "subject/delete": {
+        "sysStateList": ["active"],
+        "profileList": ["Executives"]
+      },
+      "subject/listContent": {
+        "sysStateList": ["active"],
+        "profileList": ["Public"]
+      }
+    }
+  }
+}
